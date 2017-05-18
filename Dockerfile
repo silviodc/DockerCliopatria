@@ -9,8 +9,7 @@ RUN apt-get update \
 	&& apt-get install -y software-properties-common \ 
 	&& add-apt-repository ppa:swi-prolog/stable \
 	&& apt-get update \
-	&& apt-get install -y swi-prolog \
-	&& git
+	&& apt-get install -y swi-prolog git
 
 
 # Set environment variables
