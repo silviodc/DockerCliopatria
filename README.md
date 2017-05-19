@@ -14,7 +14,7 @@ Build a docker image to [Cliopatria](https://github.com/ClioPatria/ClioPatria)
 OR
 
 #### typing the commands
-##### (This allow access of the prolog terminal):
+##### (This allow access to prolog terminal):
 
 `docker run --name "myCliopatria"  -p 3020:3020 -p 3050:3050  -v $PWD/storage/:/opt/cliopatria/storage/  -it  cliopatria`
 
