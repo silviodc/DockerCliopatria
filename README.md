@@ -3,7 +3,7 @@ Build a docker image to [Cliopatria](https://github.com/ClioPatria/ClioPatria)
 
 ## Build the image:
 
- docker build -t cliopatria .
+ `docker build -t cliopatria .`
  
  
 ## Start the containers
