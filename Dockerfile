@@ -1,6 +1,8 @@
 #GET IMAGE the oficial prolog image
 FROM swipl/swipl
 
+MAINTAINER Silvio Cardoso <silvio.cardoso@list.lu>
+
 #Install github
 RUN apt-get update && apt-get install -y git
 
