@@ -22,7 +22,7 @@ OR
 ##### Creating the container in daemon mode
 ##### (Without access to prolog terminal):
 
-`docker run --name "myCliopatria"  -p 3020:3020 -p 3050:3050  -v $PWD/storage/:/opt/cliopatria/storage/  -d  cliopatria`
+`docker run --name "myCliopatria"  -p 3020:3020 -p 3050:3050  -v $PWD/storage/:/opt/cliopatria/storage/  -d -t cliopatria`
 
  
 * Both will create the docker container and one folder (storage) where you can access the inserted triples
